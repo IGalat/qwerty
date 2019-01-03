@@ -1,0 +1,18 @@
+StarAccess - что с прогой?
+https://hard.rozetka.com.ua/dell_e2216hv/p17691780/#tab=all какой разъем? мой DVI(-чёто там возможно)
+найти парикмахера
+
+HoPrac:
+spring boot tests
+aop logging
+aop transactions(?)
+querydsl with spring boot
+read on:
+collections
+spring(mkyong, youtube-roman brovko, евгений борисов)
+spring cloud
+
+
+https://www.youtube.com/watch?v=MM9bi06JVV8
+https://www.youtube.com/watch?v=UBQUeVPdYvo
+https://www.youtube.com/watch?v=gzxJXtzPjt4
