@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=gzxJXtzPjt4
 
 
 
-qwerty commit
+qwerty_commit
 
 cd C:\_my\Dev\javaProjects\qwerty
 git add .
