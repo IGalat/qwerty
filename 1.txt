@@ -16,3 +16,13 @@ spring cloud
 https://www.youtube.com/watch?v=MM9bi06JVV8
 https://www.youtube.com/watch?v=UBQUeVPdYvo
 https://www.youtube.com/watch?v=gzxJXtzPjt4
+
+
+
+
+qwerty commit
+
+cd C:\_my\Dev\javaProjects\qwerty
+git add .
+git cm "1"
+git push -u origin master
