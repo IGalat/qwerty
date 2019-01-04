@@ -3,6 +3,7 @@ https://hard.rozetka.com.ua/dell_e2216hv/p17691780/#tab=all какой разъ�
 найти парикмахера
 
 git pull rebase -> push.bat
+rebase <- pull.bat
 
 HoPrac:
 spring boot tests
