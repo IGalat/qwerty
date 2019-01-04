@@ -13,16 +13,4 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
-https://www.youtube.com/watch?v=MM9bi06JVV8
-https://www.youtube.com/watch?v=UBQUeVPdYvo
 https://www.youtube.com/watch?v=gzxJXtzPjt4
-
-
-
-
-qwerty_commit
-
-cd C:\_my\Dev\javaProjects\qwerty
-git add .
-git cm "Update 1.txt"
-git push -u origin master
