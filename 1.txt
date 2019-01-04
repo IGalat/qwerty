@@ -2,6 +2,8 @@ StarAccess - что с прогой?
 https://hard.rozetka.com.ua/dell_e2216hv/p17691780/#tab=all какой разъем? мой DVI(-чёто там возможно)
 найти парикмахера
 
+git pull rebase -> push.bat
+
 HoPrac:
 spring boot tests
 aop logging
