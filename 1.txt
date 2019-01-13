@@ -1,6 +1,7 @@
 прививки https://lifehacker.ru/privivki-vzroslym/
 бух чек
 курс валют - заказать?
+скрины музло
 
 HoPrac:
 spring boot tests
