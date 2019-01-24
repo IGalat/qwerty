@@ -12,6 +12,7 @@ spring cloud
 SIRENIA - Into The Night
 Sirenia - Nos Heures Sombres
 Black Light Discipline - Walls Inside Us
+Black Light Discipline - Self Control
 Neurotech - Unconditional
 Neurotech - The Sky is Always Open
 
