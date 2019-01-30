@@ -9,5 +9,4 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 закинуть реюзме в гитхаб
-HDMI кабель+батин ноут
 
