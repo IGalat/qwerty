@@ -9,5 +9,4 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
-проверить масштаб больше 150% на вин8
 
