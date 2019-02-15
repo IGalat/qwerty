@@ -2,7 +2,7 @@ HoPrac:
 spring boot tests
 aop logging
 aop transactions(?)
-querydsl with spring boot
+querydsl with spring boot  https://www.baeldung.com/spring-rest-api-query-search-language-tutorial
 read on:
 collections
 spring(mkyong, youtube-roman brovko, евгений борисов)
