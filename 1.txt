@@ -10,6 +10,5 @@ spring cloud
 
 
 ozone
+ИНН -> страховка
 
-
-https://www.sportlife.ua/ru/services/schedule/14879
