@@ -1,5 +1,16 @@
-Go to line - Ctrl G
-
+Ctrl G                                      - перейти к линии
+alt+insert                                         - авто создание методов
+ctrl+shift+A                                    - поиск по настройкам
+ctrl+B, middle mouse button                - go to declaration
+ctrl+/   ctrl+shift+/                        - закоментить строки    выделенное
+shift+F6                                          - rename
+alt+enter                                         - действия(предложить исправление)
+ctrl+W                                             - выделение, много раз нажимать для увеличения области
+ctrl+H                                              - hierarchy
+ctrl+N ; ctrl+shift+N                       - искать и открыть класс ; файл
+double 'shift'                                  - искать везде
+alt+home                                        - show navigation bar
+crtl+Q       			                   - быстрая документация
 
 
 
