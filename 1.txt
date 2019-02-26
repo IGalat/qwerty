@@ -1,5 +1,4 @@
 HoPrac:
-aop logging
 aop transactions(?)
 querydsl with spring boot  https://www.baeldung.com/spring-rest-api-query-search-language-tutorial
 spring api from swagger
