@@ -1,2 +1,3 @@
 диплом        Автоматизація формування та підтримки особових рахунків клієнтів банку та проведення операцій з ними на базі платформи JAVA
 https://app.quickdatabasediagrams.com/#/     БД диаграммы
+https://drive.google.com/drive/u/1/folders/11pYCXTz4rrlL65KSGicoWyb9sflSLLlX
