@@ -76,4 +76,8 @@ fullName string
 taxId long unique
 passport string unique
 
-#todo currencies values
+currencyValues
+-
+bankBuying string(3)
+bankSelling string(3)
+valueRatio double
