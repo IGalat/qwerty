@@ -11,7 +11,5 @@ spring cloud
 ozone
 
 
-
-https://logback.qos.ch/manual/layouts.html можно сделать кастомный лейаут и в него всякой хуйни наворотить
-Generating the method name is not particularly fast. Thus, its use should be avoided unless execution speed is not an issue.
+https://www.fanfiction.net/s/10530123/1/No-Longer-Alone
 
