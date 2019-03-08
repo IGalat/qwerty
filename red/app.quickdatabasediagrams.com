@@ -13,12 +13,16 @@ okpo long
 iban string #International Bank Account Number
 opened date null
 closed date null
+created date
+changed date
 
 acountStatus #immutable; prohibited
 -
 id long pk
 name string unique
 description string  null
+created date
+changed date
 
 accountFinance
 -
@@ -35,6 +39,8 @@ cashLimitMonthlyUsed long
 debitBalance long
 creditBalance long
 blockedSum long
+created date
+changed date
 
 
 accountType #premium/gold etc
@@ -47,6 +53,8 @@ maxLoanLimit long
 maxOverdraftLimit long
 maxCashLimitDaily long
 maxCashLimitMonthly long
+created date
+changed date
 #todo commissions
 
 operations #immutable
@@ -58,13 +66,24 @@ subjectAccountId long FK >- account.id null
 objectAccountId long FK >- account.id null
 currency string(3) null
 operationAmount long null #сумма в валюте операции
+commission long null
 subjectBalanceChange long null
 objectBalanceChange long null
-commission long null
 system string null #откуда сделана?
 description string null
-created date
+createdOp date
 executed date
+created date
+changed date
+
+commissions
+-
+opTypeId long pk FK >- operationType.id
+commissionAbsolute long
+commissionPercentage double
+created date
+changed date
+
 
 operationType #immutable; prohibited
 -
@@ -72,6 +91,8 @@ id long pk
 name string unique
 monetary boolean
 description string null
+created date
+changed date
 
 client
 -
@@ -79,9 +100,22 @@ id long pk
 fullName string
 taxId long unique
 passport string unique
+created date
+changed date
 
 currencyValues
 -
 bankBuying string(3)
 bankSelling string(3)
 valueRatio double
+created date
+changed date
+
+currencyValuesHistory #immutable
+-
+bankBuying string(3)
+bankSelling string(3)
+valueRatio double
+startDate date
+created date
+changed date
