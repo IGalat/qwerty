@@ -32,7 +32,8 @@ cashLimitDaily long
 cashLimitDailyUsed long
 cashLimitMonthly long
 cashLimitMonthlyUsed long
-balance long
+debitBalance long
+creditBalance long
 blockedSum long
 
 
@@ -52,13 +53,15 @@ operations #immutable
 -
 id long pk
 typeId long FK >- operationType.id
-subjectAccountId long FK >- account.id
+subjectClientId long FK >- client.id
+subjectAccountId long FK >- account.id null
 objectAccountId long FK >- account.id null
 currency string(3) null
 operationAmount long null #сумма в валюте операции
 subjectBalanceChange long null
 objectBalanceChange long null
 commission long null
+system string null #откуда сделана?
 description string null
 created date
 executed date
@@ -67,6 +70,7 @@ operationType #immutable; prohibited
 -
 id long pk
 name string unique
+monetary boolean
 description string null
 
 client
