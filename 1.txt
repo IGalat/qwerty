@@ -11,5 +11,6 @@ spring cloud
 ozone
 
 
-https://www.fanfiction.net/s/10530123/1/No-Longer-Alone
+
+Idea key
 
