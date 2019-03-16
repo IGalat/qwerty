@@ -108,6 +108,7 @@ currencyValues
 bankBuying string(3)
 bankSelling string(3)
 valueRatio double
+reverse boolean
 created date
 changed date
 
@@ -116,6 +117,7 @@ currencyValuesHistory #immutable
 bankBuying string(3)
 bankSelling string(3)
 valueRatio double
+reverse boolean
 startDate date
 created date
 changed date
