@@ -8,9 +8,5 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
-ozone
 
-
-https://doc.ua/doctor/kiev/leonid-pinskij    27 мар 17:00
-
-https://www.lesswrong.com/posts/YicoiQurNBxSp7a65/is-clickbait-destroying-our-general-intelligence
+trello login
