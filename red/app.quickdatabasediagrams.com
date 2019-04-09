@@ -1,11 +1,11 @@
 # to all tables: add created/by, changed/by
 
-account
+ACCOUNT
 -
 id long pk
-clientId long FK >- client.id
-typeId long FK >- accountType.id
-statusId long FK >- acountStatus.id
+clientId long FK >- CLIENT.id
+accountTypeId long FK >- ACCOUNT_TYPE.id
+accountStatusId long FK >- ACCOUNT_STATUS.id
 mfo long
 number long
 currency string(3)
@@ -16,7 +16,7 @@ closed date null
 created date
 changed date
 
-acountStatus #immutable; prohibited
+ACCOUNT_STATUS #immutable; prohibited
 -
 id long pk
 name string unique
@@ -24,9 +24,9 @@ description string  null
 created date
 changed date
 
-accountFinance
+ACCOUNT_FINANCE
 -
-accountId long pk FK >- account.id
+accountId long pk FK >- ACCOUNT.id
 loanBlocked boolean
 loanEnabled boolean #user's setting this
 loanLimit long
@@ -43,7 +43,7 @@ created date
 changed date
 
 
-accountType #premium/gold etc
+ACCOUNT_TYPE #premium/gold etc
 -
 id long pk
 name string unique
@@ -57,13 +57,13 @@ created date
 changed date
 #todo commissions
 
-operations #immutable
+OPERATIONS #immutable
 -
 id long pk
-typeId long FK >- operationType.id
-subjectClientId long FK >- client.id
-subjectAccountId long FK >- account.id null
-objectAccountId long FK >- account.id null
+typeId long FK >- OPERATION_TYPE.id
+subjectClientId long FK >- CLIENT.id
+subjectAccountId long FK >- ACCOUNT.id null
+objectAccountId long FK >- ACCOUNT.id null
 currency string(3) null
 operationAmount long null #сумма в валюте операции
 commission long null
@@ -76,16 +76,7 @@ executed date
 created date
 changed date
 
-commissions
--
-opTypeId long pk FK >- operationType.id
-commissionAbsolute long
-commissionPercentage double
-created date
-changed date
-
-
-operationType #immutable; prohibited
+OPERATION_TYPE #immutable; prohibited
 -
 id long pk
 name string unique
@@ -94,7 +85,15 @@ description string null
 created date
 changed date
 
-client
+COMMISSIONS
+-
+opTypeId long pk FK >- OPERATION_TYPE.id
+commissionAbsolute long
+commissionPercentage double
+created date
+changed date
+
+CLIENT
 -
 id long pk
 fullName string
@@ -103,21 +102,19 @@ passport string unique
 created date
 changed date
 
-currencyValues
+CURRENCY_VALUES
 -
-bankBuying string(3)
-bankSelling string(3)
-valueRatio double
-reverse boolean
+currency string(3)
+bankSellRatio double
+bankBuyRatio double
 created date
 changed date
 
-currencyValuesHistory #immutable
+CURRENCY_VALUES_HISTORY #immutable
 -
-bankBuying string(3)
-bankSelling string(3)
-valueRatio double
-reverse boolean
+currency string(3)
+bankSellRatio double
+bankBuyRatio double
 startDate date
 created date
 changed date
