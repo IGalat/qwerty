@@ -91,7 +91,7 @@ changed date
 COMMISSIONS
 -
 opTypeId long pk FK >- OPERATION_TYPE.id
-commissionAbsolute long
+commissionMinAbsolute long
 commissionPercentage double
 created date
 changed date
