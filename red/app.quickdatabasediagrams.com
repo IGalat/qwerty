@@ -64,6 +64,9 @@ typeId long FK >- OPERATION_TYPE.id
 subjectClientId long FK >- CLIENT.id
 subjectAccountId long FK >- ACCOUNT.id null
 objectAccountId long FK >- ACCOUNT.id null
+objectFullName string
+objectTaxId long
+objectPassport string
 currency string(3) null
 operationAmount long null #сумма в валюте операции
 commission long null
