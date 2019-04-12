@@ -84,6 +84,7 @@ OPERATION_TYPE #immutable; prohibited
 id long pk
 name string unique
 monetary boolean
+limit long null
 description string null
 created date
 changed date
