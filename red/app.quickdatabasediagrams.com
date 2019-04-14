@@ -6,7 +6,7 @@ id long pk
 clientId long FK >- CLIENT.id
 accountTypeId long FK >- ACCOUNT_TYPE.id
 accountStatusId long FK >- ACCOUNT_STATUS.id
-mfo long
+bankMfo integer FK >- BANK.mfo
 number long
 currency string(3)
 okpo long
@@ -114,11 +114,9 @@ bankBuyRatio double
 created date
 changed date
 
-CURRENCY_VALUES_HISTORY #immutable
+BANK
 -
-currency string(3)
-bankSellRatio double
-bankBuyRatio double
-startDate date
-created date
-changed date
+mfo integer PK
+name string
+legalName string
+description string
