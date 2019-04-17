@@ -3,23 +3,13 @@ ACCOUNT
 id long pk
 clientId long FK >- CLIENT.id
 accountTypeId long FK >- ACCOUNT_TYPE.id
-accountStatusId long FK >- ACCOUNT_STATUS.id
-bankMfo integer FK >- BANK.mfo
+bankId integer FK >- BANK.mfo
+accountStatus string(15)
 number long
 currency string(3)
-iban string #International Bank Account Number
+iban string(40) #International Bank Account Number
 opened date null
 closed date null
-createdDate date
-createdBy string
-changedDate date
-changedBy string
-
-ACCOUNT_STATUS #immutable; prohibited
--
-id long pk
-name string unique
-description string null
 createdDate date
 createdBy string
 changedDate date
@@ -50,7 +40,7 @@ changedBy string
 ACCOUNT_TYPE #premium/gold etc
 -
 id long pk
-name string unique
+name string(50) unique
 description string
 maxBalance long
 maxLoanLimit long
@@ -70,7 +60,7 @@ subjectAccountId long FK >- ACCOUNT.id
 objectAccountId long FK >- ACCOUNT.id null
 objectFullName string null
 objectTaxId long null
-objectPassport string null
+objectPassport string(8) null
 currency string(3) null
 operationAmount long null #сумма в валюте операции
 commission long null
@@ -87,7 +77,7 @@ changedBy string
 OPERATION_TYPE #immutable; prohibited
 -
 id long pk
-name string unique
+name string(100) unique
 description string null
 monetary boolean
 monetaryLimit long null
@@ -111,7 +101,7 @@ CLIENT
 id long pk
 fullName string
 taxId long unique
-passport string unique
+passport string(8) unique
 createdDate date
 createdBy string
 changedDate date
@@ -130,7 +120,7 @@ changedBy string
 BANK
 -
 id long PK
-name string unique
+name string(100) unique
 description string null
 legalName string unique
 mfo integer unique
