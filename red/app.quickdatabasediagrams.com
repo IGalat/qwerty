@@ -4,7 +4,7 @@ id long pk
 clientId long FK >- CLIENT.id
 accountTypeId long FK >- ACCOUNT_TYPE.id
 accountStatusId long FK >- ACCOUNT_STATUS.id
-bankMfo integer FK >- BANK.mfo
+bankId integer FK >- BANK.id
 number long
 currency string(3)
 iban string(40) #International Bank Account Number
