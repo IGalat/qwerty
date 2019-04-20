@@ -8,14 +8,10 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
-спортлайф 6-7к
-
 
 https://www.youtube.com/watch?v=IPSRJ0CBqBw   Laputa: Castle in the Sky - Kimi wo Nosete
 https://www.youtube.com/watch?v=ggLTPyRXUKc нужно больше медитативных треков
 
 
 
-
-red: получатель операции не обяз клиент; имеет акк, мфо, имя, taxId
-https://www.fanfiction.net/s/12232087/1/The-Undisputed
+забрать карточку укрсиб
