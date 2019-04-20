@@ -3,13 +3,23 @@ ACCOUNT
 id long pk
 clientId long FK >- CLIENT.id
 accountTypeId long FK >- ACCOUNT_TYPE.id
-bankId integer FK >- BANK.mfo
-accountStatus string(15)
+accountStatusId long FK >- ACCOUNT_STATUS.id
+bankMfo integer FK >- BANK.mfo
 number long
 currency string(3)
 iban string(40) #International Bank Account Number
 opened date null
 closed date null
+createdDate date
+createdBy string
+changedDate date
+changedBy string
+
+ACCOUNT_STATUS #immutable; prohibited
+-
+id long pk
+name string unique
+description string null
 createdDate date
 createdBy string
 changedDate date
