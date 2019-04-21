@@ -66,7 +66,10 @@ OPERATION #immutable
 -
 id long pk
 operationTypeId long FK >- OPERATION_TYPE.id
-subjectAccountId long FK >- ACCOUNT.id
+subjectAccountId long FK >- ACCOUNT.id null
+subjectFullName string null
+subjectTaxId long null
+subjectPassport string(8) null
 objectAccountId long FK >- ACCOUNT.id null
 objectFullName string null
 objectTaxId long null
