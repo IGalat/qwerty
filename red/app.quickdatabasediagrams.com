@@ -5,9 +5,9 @@ clientId long FK >- CLIENT.id
 accountTypeId long FK >- ACCOUNT_TYPE.id
 accountStatusId long FK >- ACCOUNT_STATUS.id
 bankId integer FK >- BANK.id
-number long
+number long unique
 currency string(3)
-iban string(40) #International Bank Account Number
+iban string(40) unique #International Bank Account Number
 opened date null
 closed date null
 createdDate date
