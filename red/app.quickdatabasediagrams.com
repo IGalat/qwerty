@@ -102,8 +102,8 @@ changedBy string
 COMMISSION
 -
 operationTypeId long PK FK >- OPERATION_TYPE.id
-commissionMinAbsolute long null
-commissionPercentage double null
+commissionMinAbsolute long
+commissionPercentage double
 createdDate date
 createdBy string
 changedDate date
