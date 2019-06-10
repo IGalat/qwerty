@@ -10,6 +10,6 @@ spring cloud
 
 паспорт фото (там же где делали паспорт?)
 сканер qr на мобу, извлечь qr из фотки   https://play.google.com/store/apps/details?id=com.geekslab.qrbarcodescanner.pro&hl=ru
-купить плавки
+купить плавки. синево-отлить-плавки-трамвай?
 
 
