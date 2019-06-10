@@ -8,8 +8,7 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
-паспорт фото (там же где делали паспорт?)
-сканер qr на мобу, извлечь qr из фотки   https://play.google.com/store/apps/details?id=com.geekslab.qrbarcodescanner.pro&hl=ru
+паспорт фото
 купить плавки. синево-отлить-плавки-трамвай?
 
 
