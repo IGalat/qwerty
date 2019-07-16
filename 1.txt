@@ -12,6 +12,7 @@ spring cloud
 в Добробут к Селіванова Т.А. 26.07 к 11.00 (папиллома и андрофлор)
 йога
 универское в дропбокс
+моб с блютуз адаптером(ldac?)
 
 https://mynoise.net/NoiseMachines/rainNoiseGenerator.php
 
