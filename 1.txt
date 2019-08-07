@@ -6,6 +6,7 @@ read on:
 collections
 spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
+https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar
 
 
 звуковуху купить
