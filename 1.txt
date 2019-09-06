@@ -6,7 +6,6 @@ read on:
 collections
 spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
-https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar
 
 
 вертебролог Нагорный(Добробут на Воздухофлотской) пт 18.00, на 19 идзи лор (Шаров)
