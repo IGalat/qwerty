@@ -16,6 +16,7 @@ spring cloud
 работа:
 найти сайт со статистикой
 https://www.clearerthinking.org/
+Ире: как после собесов мягко отклонять
 
 
 
