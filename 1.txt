@@ -15,9 +15,6 @@ spring cloud
 
 работа:
 найти сайт со статистикой
-https://www.clearerthinking.org/
 
 
-
-https://www.fanfiction.net/s/13366586/5/Incompatible-System
 
