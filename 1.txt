@@ -8,6 +8,8 @@ spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
 
+https://www.lesswrong.com/codex
+
 https://www.clearerthinking.org/tools-and-mini-courses
 найти сайт со статистикой
 
