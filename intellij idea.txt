@@ -20,3 +20,7 @@ My changes | macros:
     Annotate -> F11
     Compare with the Same Repository Version -> F10
     File Structure -> F12
+
+Plugins:
+	Lombok
+	
