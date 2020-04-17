@@ -7,6 +7,12 @@ collections
 spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
+питон:
+Python In action книжка
+Python Cookbook: Recipes for Mastering Python 3
+https://www.udemy.com/course/complete-python-bootcamp/
+
+
 
 https://www.lesswrong.com/codex
 https://www.clearerthinking.org/tools-and-mini-courses
