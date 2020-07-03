@@ -9,8 +9,4 @@ git config --global alias.
 	st = status
 	amend = commit --amend --no-edit
 	aliases = config --get-regexp ^alias\\.
-	
-
-
-if we have an argument, avoid duplicates:
-! something something "$1" && :
+	sync = !git add . && git cm \"sync\" && git pull --rebase && git push && :
