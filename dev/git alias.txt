@@ -12,6 +12,5 @@ git config --global alias.
 	
 
 
-
-
-sync = ! [ -z "$1" ] && echo "1" || git repo-sync path-"$1" && :
+if we have an argument, avoid duplicates:
+! something something "$1" && :
