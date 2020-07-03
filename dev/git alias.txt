@@ -1,0 +1,15 @@
+git config --global --edit
+
+git config --global alias.
+
+co "checkout"
+cm "commit -m"
+st "status"
+br "branch"
+amend "commit --amend --no-edit"
+aliases "config --get-regexp ^alias\."
+
+
+sync-repo "!git add . && git cm \"Update\" && :"
+cc "!q(){ git checkout \"$1\" && git status; };q"
+xx "! git checkout \"$1\" && git status && :"
