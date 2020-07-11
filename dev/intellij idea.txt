@@ -20,7 +20,10 @@ My changes | macros:
     Annotate -> F11
     Compare with the Same Repository Version -> F10
     File Structure -> F12
-
+	Hide active tool window -> Esc
+	
+	Ctrl Shift A - Show line numbers
+	
 Plugins:
 	Lombok
 	
