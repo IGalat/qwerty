@@ -10,3 +10,7 @@ git config --global alias.
 	amend = commit --amend --no-edit
 	aliases = config --get-regexp ^alias\\.
 	sync = !git add . && git cm \"sync\" && git pull --rebase && git push && :
+
+
+git config --global user.name "Illia Halatiuk"
+git config --global user.email johndoe@example.com
