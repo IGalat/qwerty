@@ -1,13 +1,10 @@
 HoPrac:
-aop transactions(?)
-querydsl with spring boot  https://www.baeldung.com/spring-rest-api-query-search-language-tutorial
 spring api from swagger
-read on:
 collections
 spring(mkyong, youtube-roman brovko, евгений борисов)
 spring cloud
 
-питон:
+
 Python In action книжка
 Python Cookbook: Recipes for Mastering Python 3
 https://www.udemy.com/course/complete-python-bootcamp/
@@ -17,6 +14,3 @@ https://www.udemy.com/course/complete-python-bootcamp/
 https://www.lesswrong.com/codex
 https://www.clearerthinking.org/tools-and-mini-courses
 найти сайт со статистикой
-
-
-https://www.fanfiction.net/s/13093409/5/The-Sociopathy-Of-Uchiha-Sasuke
