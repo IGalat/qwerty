@@ -15,6 +15,8 @@ crtl+Q       			                   - быстрая документация
 
 
 My changes | macros:
+	Settings - Editor - General - Editor Tabs:
+		Untick "Show tabs in one row", "Show file extension"
     (Edit - Macros)
         Reformat code (Ctrl Alt L) + Optimize imports (Ctrl Alt O) + Save All (Ctrl S) -> format and save (Ctrl S)
     Annotate -> F11
